@@ -1,0 +1,77 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #div1, #div2, #div3 {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    text-align: center;
+  }
+  
+  #horaActual, #cronometre, #temporitzador {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  #arrenca1, #para1, #reset1, #arrenca2, #para2, #reset2, #arrenca3, #para3, #reset3 {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #arrenca1, #arrenca2, #arrenca3 {
+    background-color: green;
+    color: white;
+  }
+  
+  #para1, #para2 , #para3{
+    background-color: red;
+    color: white;
+  }
+  
+  #reset1, #reset2, #reset3{
+    background-color: gray;
+    color: white;
+  }
+  
+  #clock1Info, #clock2Info, #clock3Info {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #clock1, #clock2, #clock3 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px #ccc;
+  }
+  
+  #clock1 {
+    color: blue;
+  }
+  
+  #clock2 {
+    color: green;
+  }
+  
+  #clock3 {
+    color: red;
+  }
+  

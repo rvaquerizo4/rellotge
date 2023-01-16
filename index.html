@@ -1,24 +1,40 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rellotge Raul Vaquerizo</title>
+    <title>Relojes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
-
   <body>
-    <div>
-        <div id="tiempo">
-            <h3>Por favor, introduce estos datos:</h3>
-            <label for="hora">hora</label>
-            <input type="text" id="hora" name="hora" />
-            <label for="minuto">minuto</label>
-            <input type="text" id="minuto" name="minuto" />
-            <label for="segundo">segundos</label>
-            <input type="text" id="segundo" name="segundo" />
-            <input type="submit" id="submit" value="submit" />
-        </div>
-      <script src="index.js"></script>
+
+    <div id="clock1Info"><p>Tiempo real:</p></div>
+    <div id="clock1"></div>
+    <div id="clock2Info"><p>Cronometro:</p></div>
+    <div id="clock2"></div>
+    <div id="clock3Info"><p>Cuenta atras:</p></div>
+    <div id="clock3"></div>
+
+    <div id="div1">
+      <p id="horaActual"></p>
+      <button onclick="arrenca1()" id="arrenca1">Arranca</button>
+      <button onclick="para1()" id="para1">Para</button>
+      <button onclick="reset1()" id="reset1">Reset</button>
     </div>
+
+    <div id="div2">
+      <p id="cronometre"></p>
+      <button onclick="arrenca2()" id="arrenca2">Arranca</button>
+      <button onclick="para2()" id="para2">Para</button>
+      <button onclick="reset2()" id="reset2">Reset</button>
+    </div>
+
+    <div id="div3">
+      <p id="temporitzador"></p>
+      <button onclick="arrenca3()" id="arrenca3">Arranca</button>
+      <button onclick="para3()" id="para3">Para</button>
+      <button onclick="reset3()" id="reset3">Reset</button>
+    </div>
+
+
+    <script src="index.js"></script>
   </body>
 </html>
